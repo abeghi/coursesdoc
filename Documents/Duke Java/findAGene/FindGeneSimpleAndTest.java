@@ -22,8 +22,13 @@ public class FindGeneSimpleAndTest {
         }
         result = dna.substring(startIndex, stopIndex+3);
         
+        // if ((stopIndex - startIndex) % 3 == 0))
+        // {
+        //    return result;
+        //}
        
-        return result;
+        return "not a valid gene";
+    
     }
     
     public void testFindGeneSimple() {
